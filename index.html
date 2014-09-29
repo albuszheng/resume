@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title>Keyang Zheng's Résumé</title>
+        <meta name="description" content="">
+        <!-- <meta name="viewport" content="width=device-width"> -->
+
+        <link rel="stylesheet" href="css/normalize.css">
+        <link rel="stylesheet" href="css/main.css">
+        <script src="js/vendor/modernizr-2.6.1.min.js"></script>
+    </head>
+    <body>
+        <!--[if lt IE 7]>
+            <p class="chromeframe">You are using an outdated browser. <a href="http://browsehappy.com/">Upgrade your browser today</a> or <a href="http://www.google.com/chromeframe/?redirect=true">install Google Chrome Frame</a> to better experience this site.</p>
+        <![endif]-->
+
+        <noscript>You'd better enable JavaScript to view this page.</noscript>
+
+        <div id="topbar">
+            <p>My Résumé is available in <a class="select select-zh" href="#zh">中文</a> <!--and <a class="select select-en" href="#en">English</a>. -->You may also <a href="resume-zhengkeyang.pdf">download as PDF</a>. <a class="source" href="https://github.com/albuszheng/resume" target="_blank">View source on github</a></p>
+        </div>
+
+        <div id="loadingbar-wrapper">
+        <div id="loadingbar-1" class="loadingbar"></div>
+        <div id="loadingbar-2" class="loadingbar"></div>
+        <div id="loadingbar-3" class="loadingbar"></div>
+        </div>
+
+        <div class="container" id="main">
+        </div>
+
+        <script id="template" type="text/x-mustache-template">
+            <header class="clearfix">
+                <h1>{{name}}</h1>
+
+                <figure class="contact">
+                    <a href="http://albuszheng.github.io">albuszheng.github.io</a>
+                    <address>
+                        <span class="encoded" data-encoded="{{tel}}"></span><br />
+                        <span class="encoded email" data-encoded="{{email}}"></span><br />
+                        {{address}}
+                    </address>
+                </figure>
+            </header>
+
+            <div class="row content">
+            {{#content}}
+                <section>
+                    <h2>{{title}}</h2>
+                    {{#details}}
+                    <dl>
+                        <dt>{{subtitle}}<span class="time">{{time}}</span></dt>
+                        <dd>
+                        {{description}}
+                        {{#link}}
+                            <br /><a href="{{href}}" target="_blank" class="description-link">&rArr; {{text}}</a>
+                        {{/link}}
+                        </dd>
+                    </dl>
+                    {{/details}}
+                    {{^details}}<p>{{text}}</p>{{/details}}
+                </section>
+            {{/content}}
+            </div>
+
+            <aside class="row sidebar">
+                <dl>
+                {{#highlights}}
+                    <dt>{{title}}</dt>
+                    <dd>
+                        <ul>
+                        {{#list}}
+                            <li>{{&.}}</li>
+                        {{/list}}
+                        </ul>
+                    </dd>
+                {{/highlights}}
+                </dl>
+            </aside>
+        </script>
+
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.0/jquery.min.js"></script>
+        <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.8.0.min.js"><\/script>')</script>
+        <script async src="http://use.edgefonts.net/muli.js"></script>
+        <script src="js/plugins.js"></script>
+        <script src="js/main.js"></script>
+    </body>
+</html>
