@@ -35,7 +35,7 @@
         var loadResume = function(language) {
             container.hide();
             settings.loadingBar.show();
-            $.getJSON('zh.json', function(data) {
+            $.getJSON('en.json', function(data) {
                 // set title
                 document.title = data.document_title;
 
