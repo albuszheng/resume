@@ -380,6 +380,8 @@ dd, section p {
     width: 1px;
 }
 
+
+
 /*
  * Extends the .visuallyhidden class to allow the element to be focusable
  * when navigated to via the keyboard: h5bp.com/p
@@ -541,4 +543,14 @@ dd, section p {
     -webkit-columns: 2;
     -moz-columns: 2;
     }
+}
+
+.item-ul {
+    margin-top : 8px;
+    margin-bottom: 8px;
+    padding-left: 0px;
+    list-style-type:none;
+    columns: 2;
+    -webkit-columns: 2;
+    -moz-columns: 2;
 }
