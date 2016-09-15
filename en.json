@@ -95,11 +95,6 @@
 			"title": "Interests & Concerntrate Area",
 			"list": ["Social Computing", "Web Development", "UX Research and Design"]
 		},
-
-		// {
-		// 	"title": "Courses",
-		// 	"list": ["Computer Graphics","Mathematical Logic","Algorithm Design","Computational Theory","Programming Language","Reactive Programming in Scala"]
-		// },
 		{
 			"title": "Campus Life",
 			"list": ["Leader of LilyStudio Tech Lab's UED Team", "Chief Editor of School's Student Council Journal", "Member of School's Tennis Team"]
