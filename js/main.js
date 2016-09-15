@@ -84,9 +84,6 @@
                 $('#topbar a.select').removeClass('active').filter('.select-' + language).addClass('active');
                 $('html').removeClass('resume-zh resume-en').addClass('resume-' + language);
 
-                // track
-                if (settings.gaTrack)
-                    _gaq.push(['_trackEvent', 'language', language]);
             });
         };
 

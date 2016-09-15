@@ -1,131 +1,134 @@
 {
-	"document_title": "Keyang Zheng's Résumé",
-	"language_tip": "The page is available in {0} and {1}. You can also {2}.",
+	"document_title": "Keyang Zheng's Resume",
+	"language_tip": "The page is available in {0} and {1}. You can {2} ",
 	"download_pdf": "download as PDF",
-	"view_source": "View source on github",
+	"view_source": "",
 
-	"name": "Zheng, Keyang",
-	"tel": "%34%31%32%33%33%30%39%33%35%34",
-	"email": "%61%6c%62%75%73%7a%68%65%6e%67%40%68%6f%74%6d%61%69%6c%2e%63%6f%6d",
-	// "address": "Nanjing University, #22 HanKou Road, 210093",
+	"name": "Keyang Zheng",
+	"edu1": "B.Eng,  Software Engineering, Nanjing University, 2011 - 2015",
+	"edu2": "M.Sc, Computer Science, Digipen Institute of Technology, 2015 - 2017  GPA: 3.8/4.0",
+	"tel": "+1 (412)330-9354",
+	"email": "albuszheng@outlook.com",
+	"summary": "",
 
 	"content":
 	[
 		{
 			"title": "Internship",
-			"details":
+			"details": 
 			[
 				{
-					"subtitle": "eBay APD Shanghai",
-					"time": "2012",
-					"description": "Work on intranet solutions about sharing data analysis reports, which is based on Joomla! CMS with the addition of much customization. During the internship, I created a web app for monitoring system CRON jobs besides daily development and maintenance. I also have learned Joomla! Platform in deep, wrote some codes for contributions to Joomla! community, got familiar with Scrum teamwork, and improved understanding of large-scale web system."
+					"subtitle": "Graphics and Tools Programmer @ Confetti Interactive (Team of 4), San Diego, 2016",
+					"items": ["Build a scene previewer, Gladiator", "Apply textures to 3D objects interactively", "Dig into assembly and memory to solve leaks", "Supervised by Wolfgang Engel"]
+				},
+				{
+					"subtitle": "Software Developer @ Alibaba Inc., Department of Cloud Computing, Hangzhou, 2014",
+					"items": ["Design and implementation of a unittest framework", "Used by the whole department to build tests", "Customize the python unittest module", "Use Flask as frontend engine"]
 				}
 			]
 		},
 		{
-			"title": "Independent Projects",
+			"title": "Personal Projects",
 			"details":
 			[
 				{
-					"subtitle": "Querying website of “P.E. Clock In”",
-					"time": "2010, Sophomore",
-					"description": "“P.E. Clock In” is a factor to students' P.E. course scores. I hacked into OA system of P.E. department by chance and created the web app for querying every student's own counts, which uses PHP as back-end and jQuery as front-end. There were about 150,000 query requests and 250,000 UV per semester, which means almost every student had used this web app.",
-					"link":
-					[
-						{
-							"text": "Visit Website",
-							"href": "http://gym.dayanjia.com"
-						},
-						{
-							"text": "View Source on GitHub",
-							"href": "https://github.com/clippit/NJU-gym-checker"
-						}
-					]
-				},
-				{
-					"subtitle": "Internet Dial-in Utility in Campus",
-					"time": "2012, Senior",
-					"description": "Every student in campus must be authenticated by user name, password and CAPTCHA before connecting to the Internet. I designed and implemented a daemon utility that can substitute for manual login as well as solving the CAPTCHA image. It’s completed with wxPython so the cross-platform compatibility is good. One week after the beta version released, there are 700 logins using my tool every day.",
+					"subtitle": "Shading Graphics Engine(C++ & OpenGL)",
+					"items":["C++ Opengl Engine","Deferred Shading Support", "Physics Based BRDF Support", "GPU parallel computing"],
 					"link":
 					{
-						"text": "View Source on GitHub",
-						"href": "https://github.com/clippit/p-NJU"
+						"text": "Source code on Github",
+						"href": "http://github.com/lichenbo/Shading.git"
 					}
 				},
 				{
-					"subtitle": "Mobile OPAC Web App in Campus",
-					"time": "2009, Freshman",
-					"description": "Because I could not search the library at any time and from anywhere, I developed the mobile version of OPAC in PHP and released to public. There were over 2000 search requests per month at that time."
+					"subtitle": "IWBTEngine (C++ & OpenGL)",
+					"items":["Component based game engine", "Enable Opengl Acceleration", "Easy to build a IWBT fan game with simple scripts"]
+				},
+				{
+					"subtitle": "TSS SDK & TSS Google Calendar Synchronizer (Python)",
+					"items": ["RESTful SDK based on Flask",  "Sychronize school events with Google Calendar", "Open to public, help schoolmates"],
+					"link":
+					{
+						"text": "SDK/API Entry",
+						"href": "http://njutss.sinaapp.com"
+					}
+				},
+				{
+					"subtitle": "PrismVPN (Linux Server)",
+					"items":["VPN across Great Fire Wall", "Support IKEv2/L2tp/pptp/Spdy Protocols", "Support Windows/Mac/iOS/Android/WinPhone", "Radius server to authenticate and account", "60 users currently"],
+					"link":
+					{
+						"text": "PrismVPN Setup Tutorial",
+						"href": "http://binarythink.net/prismVPN"
+					}	
+				},				
+				{
+					"subtitle": "Canvas Table Drawer (Javascript) & BinaryTreeDrawer(Javascript)",
+					"items": ["Generate a binary tree:", "Syntax: A(D()(E(G()())()))(HelloWorld!()())", "Generate a table with merge cells: ", "Syntax: Hello, world->,<-"],
+					"link":
+					[
+						{
+							"text":"Canvas Table Drawer",
+							"href":"http://binarythink.net/project/CanvasTableDrawer"
+						},
+						{
+							"text": "Binary Tree Drawer",
+							"href":"http://binarythink.net/project/BinaryTreeDrawer"
+						}
+					]
 				}
 			]
 		},
 		{
-			"title": "Other Projects",
+			"title": "Team Work",
 			"details":
 			[
 				{
-					"subtitle": "10th Anniversary Celebration Website of Software Institute, Nanjing University",
-					"time": "2012, Junior",
-					"description": "Majority of my work was focused on front-end with jQuery. The website was built based on HTML5 Boilerplate and used jekyll for generating static website.",
+					"subtitle": "Chroma (Team of 4)",
+					"items": ["A color splash based puzzle solving platformer"],
 					"link":
 					[
 						{
-							"text": "Visit Website",
-							"href": "http://218.94.159.105/"
-						},
-						{
-							"text": "View Source on GitHub",
-							"href": "https://github.com/clippit/10th-anniversary"
+							"text": "Download Link",
+							"href": "http://games.digipen.edu/games/chroma"
 						}
 					]
 				},
 				{
-					"subtitle": "“SweetNS” Social Mashup Web App",
-					"time": "2009, Freshman",
-					"description": "I was the leader of the team and responsible for API consuming development。The project won the “Best Freshman” award of 8th Innovation Competition in my department."
+					"subtitle": "Douya Travel (Team of 5)",
+					"items": ["Travel website built with Django","Visualize traveling routes with Google Map API"],
+					"link":
+					{
+						"text": "View Source on GitHub",
+						"href": "https://github.com/douyaSE3/douya"
+					}
 				}
 			]
-		},
-		{
-			"title": "Education",
-			"text": "Bachelor of Software Engineering in Nanjing University, Linux professional emphasis，2009-2013，GPA: 3.94/5.0，CET 6"
 		}
 	],
-
+	
 	"highlights":
 	[
-		{
-			"title": "Languages",
-			"list": ["PHP", "JavaScript", "Python", "Java", "C"]
+	    {
+		    "title": "Skills & Tools",
+		    "list": ["C++","GLSL","Python","Java","SQL","Apache","Linux","Git","Vim"]
 		},
 		{
-			"title": "Frameworks & Platforms",
-			"list": ["Flask", "Django", "Octopress", "Yii Framework", "Wordpress", "Joomla!", "jQuery"]
+			"title": "Framework & API",
+			"list": ["OpenGL", "Django", "Flask"]
 		},
 		{
-			"title": "Softwares & Tools",
-			"list": ["Git", "MySQL", "MongoDB", "Photoshop", "Eclipse", "Vim"]
+			"title": "Concerntrate Area",
+			"list": ["Computer Graphics", "Web Development", "Type Theory"]
+		},
+
+		{
+			"title": "Courses",
+			"list": ["Computer Graphics","Mathematical Logic","Algorithm Design","Computational Theory","Programming Language","Reactive Programming in Scala"]
 		},
 		{
-			"title": "OS",
-			"list": ["Windows", "Arch Linux", "CentOS"]
-		},
-		{
-			"title": "School Life",
-			"list": ["Technical Leader at Lily Studio", "Moderator at Lily BBS"]
-		},
-		{
-			"title": "Features",
-			"list": ["Keep creativity", "Adapt to changes constantly", "Hack for interesting products", "Enthusiasm about open source", "Improve lives by programming", "Pay great attention to details", "Quick learner"]
-		},
-		{
-			"title": "Links",
-			"list":
-			[
-				"<a href=\"http://github.com/clippit\" target=\"_blank\"><span class=\"link-caption\">github</span>.com/clippit</a>",
-				"<a href=\"http://blog.dayanjia.com\" target=\"_blank\"><span class=\"link-caption\">blog</span>.dayanjia.com</a>",
-				"<a href=\"http://twitter.com/clipppit\" target=\"_blank\"><span class=\"link-caption\">twitter</span>.com/clipppit</a>"
-			]
+			"title": "Campus Life",
+			"list": ["Teaching assisstant for Advanced Programming in C++ course","Member of Lilystudio Tech Lab", "Second Prize of Wandou Lab Front-end Engineer Summer Camp"]
 		}
 	]
 }

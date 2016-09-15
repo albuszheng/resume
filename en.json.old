@@ -1,0 +1,131 @@
+{
+	"document_title": "Keyang Zheng's Résumé",
+	"language_tip": "The page is available in {0} and {1}. You can also {2}.",
+	"download_pdf": "download as PDF",
+	"view_source": "View source on github",
+
+	"name": "Zheng, Keyang",
+	"tel": "%34%31%32%33%33%30%39%33%35%34",
+	"email": "%61%6c%62%75%73%7a%68%65%6e%67%40%68%6f%74%6d%61%69%6c%2e%63%6f%6d",
+	// "address": "Nanjing University, #22 HanKou Road, 210093",
+
+	"content":
+	[
+		{
+			"title": "Internship",
+			"details":
+			[
+				{
+					"subtitle": "eBay APD Shanghai",
+					"time": "2012",
+					"description": "Work on intranet solutions about sharing data analysis reports, which is based on Joomla! CMS with the addition of much customization. During the internship, I created a web app for monitoring system CRON jobs besides daily development and maintenance. I also have learned Joomla! Platform in deep, wrote some codes for contributions to Joomla! community, got familiar with Scrum teamwork, and improved understanding of large-scale web system."
+				}
+			]
+		},
+		{
+			"title": "Independent Projects",
+			"details":
+			[
+				{
+					"subtitle": "Querying website of “P.E. Clock In”",
+					"time": "2010, Sophomore",
+					"description": "“P.E. Clock In” is a factor to students' P.E. course scores. I hacked into OA system of P.E. department by chance and created the web app for querying every student's own counts, which uses PHP as back-end and jQuery as front-end. There were about 150,000 query requests and 250,000 UV per semester, which means almost every student had used this web app.",
+					"link":
+					[
+						{
+							"text": "Visit Website",
+							"href": "http://gym.dayanjia.com"
+						},
+						{
+							"text": "View Source on GitHub",
+							"href": "https://github.com/clippit/NJU-gym-checker"
+						}
+					]
+				},
+				{
+					"subtitle": "Internet Dial-in Utility in Campus",
+					"time": "2012, Senior",
+					"description": "Every student in campus must be authenticated by user name, password and CAPTCHA before connecting to the Internet. I designed and implemented a daemon utility that can substitute for manual login as well as solving the CAPTCHA image. It’s completed with wxPython so the cross-platform compatibility is good. One week after the beta version released, there are 700 logins using my tool every day.",
+					"link":
+					{
+						"text": "View Source on GitHub",
+						"href": "https://github.com/clippit/p-NJU"
+					}
+				},
+				{
+					"subtitle": "Mobile OPAC Web App in Campus",
+					"time": "2009, Freshman",
+					"description": "Because I could not search the library at any time and from anywhere, I developed the mobile version of OPAC in PHP and released to public. There were over 2000 search requests per month at that time."
+				}
+			]
+		},
+		{
+			"title": "Other Projects",
+			"details":
+			[
+				{
+					"subtitle": "10th Anniversary Celebration Website of Software Institute, Nanjing University",
+					"time": "2012, Junior",
+					"description": "Majority of my work was focused on front-end with jQuery. The website was built based on HTML5 Boilerplate and used jekyll for generating static website.",
+					"link":
+					[
+						{
+							"text": "Visit Website",
+							"href": "http://218.94.159.105/"
+						},
+						{
+							"text": "View Source on GitHub",
+							"href": "https://github.com/clippit/10th-anniversary"
+						}
+					]
+				},
+				{
+					"subtitle": "“SweetNS” Social Mashup Web App",
+					"time": "2009, Freshman",
+					"description": "I was the leader of the team and responsible for API consuming development。The project won the “Best Freshman” award of 8th Innovation Competition in my department."
+				}
+			]
+		},
+		{
+			"title": "Education",
+			"text": "Bachelor of Software Engineering in Nanjing University, Linux professional emphasis，2009-2013，GPA: 3.94/5.0，CET 6"
+		}
+	],
+
+	"highlights":
+	[
+		{
+			"title": "Languages",
+			"list": ["PHP", "JavaScript", "Python", "Java", "C"]
+		},
+		{
+			"title": "Frameworks & Platforms",
+			"list": ["Flask", "Django", "Octopress", "Yii Framework", "Wordpress", "Joomla!", "jQuery"]
+		},
+		{
+			"title": "Softwares & Tools",
+			"list": ["Git", "MySQL", "MongoDB", "Photoshop", "Eclipse", "Vim"]
+		},
+		{
+			"title": "OS",
+			"list": ["Windows", "Arch Linux", "CentOS"]
+		},
+		{
+			"title": "School Life",
+			"list": ["Technical Leader at Lily Studio", "Moderator at Lily BBS"]
+		},
+		{
+			"title": "Features",
+			"list": ["Keep creativity", "Adapt to changes constantly", "Hack for interesting products", "Enthusiasm about open source", "Improve lives by programming", "Pay great attention to details", "Quick learner"]
+		},
+		{
+			"title": "Links",
+			"list":
+			[
+				"<a href=\"http://github.com/clippit\" target=\"_blank\"><span class=\"link-caption\">github</span>.com/clippit</a>",
+				"<a href=\"http://blog.dayanjia.com\" target=\"_blank\"><span class=\"link-caption\">blog</span>.dayanjia.com</a>",
+				"<a href=\"http://twitter.com/clipppit\" target=\"_blank\"><span class=\"link-caption\">twitter</span>.com/clipppit</a>"
+			]
+		}
+	]
+}
