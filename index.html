@@ -37,14 +37,17 @@
         <script id="template" type="text/x-mustache-template">
             <header class="clearfix">
                 <h1>{{name}}</h1>
-
+                <!-- <p>{{edu1}}<br />{{edu2}} -->
+                <!-- <br \>{{summary}}</p> -->
                 <figure class="contact">
-                    <a href="http://albuszheng.github.io/resume">albuszheng.github.io/resume</a>
+                    <!-- <a href="http://www.binarythink.net">binarythink.net</a> -->
                     <address>
                         <span class="encoded" data-encoded="{{tel}}"></span><br />
                         <span class="encoded email" data-encoded="{{email}}"></span><br />
                         {{address}}
                     </address>
+                    <!-- <a href="http://resume.binarythink.net"><strong>resume</strong>.binarythink.net</a><br /> -->
+                    <!-- <a href="http://github.com/lichenbo"><strong>github</strong>.com/lichenbo</a><br /> -->
                 </figure>
             </header>
 
@@ -57,8 +60,9 @@
                         <dt>{{subtitle}}<span class="time">{{time}}</span></dt>
                         <dd>
                         {{description}}
+                        <ul class="item-ul">{{#items}} <li class="item-li">&bull; {{.}}</li>{{/items}}</ul>
                         {{#link}}
-                            <br /><a href="{{href}}" target="_blank" class="description-link">&rArr; {{text}}</a>
+                            <a href="{{href}}" target="_blank" class="description-link">&rArr; {{text}}</a><br />
                         {{/link}}
                         </dd>
                     </dl>
@@ -67,7 +71,7 @@
                 </section>
             {{/content}}
             </div>
-
+            
             <aside class="row sidebar">
                 <dl>
                 {{#highlights}}
@@ -82,12 +86,13 @@
                 {{/highlights}}
                 </dl>
             </aside>
+            
         </script>
 
         <script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.0/jquery.min.js"></script>
         <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.8.0.min.js"><\/script>')</script>
         <script async src="http://use.edgefonts.net/muli.js"></script>
-        <!-- <script src="js/plugins.js"></script> -->
+        <script src="js/plugins.js"></script>
         <script src="js/main.js"></script>
     </body>
 </html>

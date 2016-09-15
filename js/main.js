@@ -40,12 +40,12 @@
                 document.title = data.document_title;
 
                 // render topbar
-                var topbar_html_wrap = '<p>{0} <a class="source" href="https://github.com/albuszheng/resume" target="_blank">{1}</a></p>',
+                var topbar_html_wrap = '<p>{0} <a class="source" href="https://github.com/clippit/resume" target="_blank">{1}</a></p>',
                     topbar_html = topbar_html_wrap.format(
                         data.language_tip.format(
                             '<a class="select select-zh" href="#zh">中文</a>',
                             '<a class="select select-en" href="#en">English</a>',
-                            '<a href="ZhengKeyang-cn.pdf">{0}</a>'.format(data.download_pdf)
+                            '<a href="ChenboLi_en.pdf">{0}</a>'.format(data.download_pdf)
                         ),
                         data.view_source
                     );
