@@ -19,11 +19,11 @@
 			[
 				{
 					"subtitle": "Front-end Intern @ ZHISHIQ.COM (Former MyDocumate), Nanjing, 2014",
-					"items": ["Build a scene previewer, Gladiator", "Apply textures to 3D objects interactively", "Dig into assembly and memory to solve leaks", "Supervised by Wolfgang Engel"]
+					"items": ["Analize business activity & requirements", "Design Interface & User Experience", "Build front-end website", "Implement RESTful API"]
 				},
 				{
 					"subtitle": "Member @ Lilystudio of Nanjing University, UED Team, Nanjing, 2013-2016",
-					"items": ["Team Leader, 2014-2015", "Used by the whole department to build tests", "Customize the python unittest module", "Use Flask as frontend engine"]
+					"items": ["Team Leader, 2014-2015", "Provide technical support for various school organization", "Design and implement user interface", "Manage projects as team leader"]
 				}
 			]
 		},
@@ -33,47 +33,43 @@
 			[
 				{
 					"subtitle": "Web-GL Based 3D Interior Design Emulator",
-					"items":["C++ Opengl Engine","Deferred Shading Support", "Physics Based BRDF Support", "GPU parallel computing"],
+					"items":["Using Three.js as 3Dgine Engine", "Yii Framework as basis for website", "Interface and interaction design", "Implement RBAC for user management"],
 					"link":
 					{
 						"text": "Source code on Github",
-						"href": "http://github.com/lichenbo/Shading.git"
+						"href": "http://github.com/albuszheng/Capstone3D.git"
 					}
 				},
 				{
 					"subtitle": "Co!orMix",
-					"items":["Component based game engine", "Enable Opengl Acceleration", "Easy to build a IWBT fan game with simple scripts"]
-				},
-				{
-					"subtitle": "Usability Analysis and Redesign of iAsk Website",
-					"items": ["RESTful SDK based on Flask",  "Sychronize school events with Google Calendar", "Open to public, help schoolmates"],
+					"items":["Mobile game developed by group of 3", "Based on Stroop Effect", "Interface and game mechanism design", "iOS interface implementation"],
 					"link":
 					{
-						"text": "SDK/API Entry",
-						"href": "http://njutss.sinaapp.com"
+						"text": "iTunse Store",
+						"href": "https://itunes.apple.com/us/app/co!ormix/id1011677035?ls=1&mt=8"
 					}
 				},
 				{
+					"subtitle": "Usability Analysis and Redesign of iAsk Website",
+					"items": ["Conducting usability test", "Using Questionnaire, heuristic evaluation and user test", "Redesign and implement website's front-end"]
+				},
+				{
 					"subtitle": "NJUVideo",
-					"items":["VPN across Great Fire Wall", "Support IKEv2/L2tp/pptp/Spdy Protocols", "Support Windows/Mac/iOS/Android/WinPhone", "Radius server to authenticate and account", "60 users currently"],
+					"items":["Video management site in school network", "Requirements management as project manager", "System Architecture Design", "Interface design and front-end implementation"],
 					"link":
 					{
-						"text": "PrismVPN Setup Tutorial",
-						"href": "http://binarythink.net/prismVPN"
+						"text": "Source code on Github",
+						"href": "http://github.com/albuszheng/NJUVideo.git"
 					}	
 				},				
 				{
 					"subtitle": "Annually Recruitment Site for LilyStudio",
-					"items": ["Generate a binary tree:", "Syntax: A(D()(E(G()())()))(HelloWorld!()())", "Generate a table with merge cells: ", "Syntax: Hello, world->,<-"],
+					"items": ["Content management", "Design and front-end implementation", "Excel Integration"],
 					"link":
 					[
 						{
-							"text":"Canvas Table Drawer",
-							"href":"http://binarythink.net/project/CanvasTableDrawer"
-						},
-						{
-							"text": "Binary Tree Drawer",
-							"href":"http://binarythink.net/project/BinaryTreeDrawer"
+							"text":"2015 Autumn for instance",
+							"href":"https://lilystudio.org/2015autumn"
 						}
 					]
 				}
@@ -89,7 +85,7 @@
 		},
 		{
 			"title": "Framework & API",
-			"list": ["Yii Framework", "jQuery", "Flask", "Foundation Framework"]
+			"list": ["Yii Framework", "jQuery", "Flask", "Foundation Framework", "RESTful"]
 		},
 		{
 			"title": "Concerntrate Area & Interests",
