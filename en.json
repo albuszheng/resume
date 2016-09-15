@@ -44,14 +44,16 @@
 					"subtitle": "Co!orMix",
 					"items":["Mobile game developed by group of 3", "Based on Stroop Effect", "Interface and game mechanism design", "iOS interface implementation"],
 					"link":
-					{
-						"text": "iTunse Store",
-						"href": "https://itunes.apple.com/us/app/co!ormix/id1011677035?ls=1&mt=8"
-					},
-					{
-						"text": "Play Store",
-						"href": "https://play.google.com/store/apps/details?id=com.cee.colormix"
-					}
+					[
+						{
+							"text": "iTunse Store",
+							"href": "https://itunes.apple.com/us/app/co!ormix/id1011677035?ls=1&mt=8"
+						},
+						{
+							"text": "Play Store",
+							"href": "https://play.google.com/store/apps/details?id=com.cee.colormix"
+						}
+					]
 				},
 				{
 					"subtitle": "Usability Analysis and Redesign of iAsk Website",
