@@ -45,7 +45,7 @@
                         data.language_tip.format(
                             '<a class="select select-zh" href="#zh">中文</a>',
                             '<a class="select select-en" href="#en">English</a>',
-                            '<a href="ChenboLi_en.pdf">{0}</a>'.format(data.download_pdf)
+                            '<a href="KeyangZheng_en.pdf">{0}</a>'.format(data.download_pdf)
                         ),
                         data.view_source
                     );
